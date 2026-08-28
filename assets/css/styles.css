@@ -27,7 +27,7 @@
   --content-left: 200px;
   --content-top: 100px;
   --measure: 595px;
-  --logo-to-intro: 100px;
+  --logo-to-intro: 128px;
   --intro-to-contact: 60px;
   --contact-to-social: 12px;
 }
@@ -244,7 +244,7 @@ a:focus-visible,
   :root {
     --content-left: clamp(48px, 8vw, 64px);
     --content-top: 80px;
-    --logo-to-intro: 80px;
+    --logo-to-intro: 112px;
   }
 
   .site-shell {
@@ -257,7 +257,7 @@ a:focus-visible,
   :root {
     --content-left: 28px;
     --content-top: 56px;
-    --logo-to-intro: 64px;
+    --logo-to-intro: 96px;
     --intro-to-contact: 48px;
   }
 
@@ -282,7 +282,7 @@ a:focus-visible,
   :root {
     --content-left: 24px;
     --content-top: 44px;
-    --logo-to-intro: 56px;
+    --logo-to-intro: 88px;
     --intro-to-contact: 44px;
   }
 
