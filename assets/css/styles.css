@@ -201,6 +201,10 @@ a:focus-visible,
   transform: translateY(4px);
 }
 
+.pronunciation.is-auto-hidden::after {
+  background: var(--pronunciation-underline);
+}
+
 
 .linkedin-link {
   display: grid;
