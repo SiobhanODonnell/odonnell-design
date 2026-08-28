@@ -5,8 +5,15 @@
   let timer = null;
   let pinned = false;
 
-  const show = () => pronunciation.classList.remove("is-auto-hidden");
-  const hide = () => pronunciation.classList.add("is-auto-hidden");
+  const show = () => {
+    pronunciation.classList.remove("is-auto-hidden");
+  };
+
+  const hide = () => {
+    pronunciation.classList.add("is-auto-hidden");
+    pronunciation.classList.remove("is-click-active");
+  };
+
   const clearTimer = () => {
     if (timer !== null) {
       window.clearTimeout(timer);
@@ -25,6 +32,7 @@
   pronunciation.addEventListener("click", () => {
     clearTimer();
     pinned = true;
+    pronunciation.classList.add("is-click-active");
     show();
 
     timer = window.setTimeout(() => {
