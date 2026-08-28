@@ -167,6 +167,10 @@ a:focus-visible,
   background: var(--pronunciation-underline-active);
 }
 
+.pronunciation.is-click-active::after {
+  background: var(--pronunciation-underline-active);
+}
+
 .pronunciation__tooltip {
   position: absolute;
   left: 1px;
